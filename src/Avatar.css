@@ -1,0 +1,31 @@
+.avatar-logo {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    position: relative;
+}
+
+.avatar-logo > .online{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.avatar-logo > .offline{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background-color: grey;
+}

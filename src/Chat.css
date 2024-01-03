@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .two-column-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .left-column {
+    flex: 1;
+    background-color: #f5f4f4;
+    height: 100vh;
+    min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .logout{
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 10px;
+    border-radius: 5px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c2dd;
+    width:25%;
+    margin-left: 5px;
+    z-index: 1000;
+  }
+
+  .logout > span{
+    color: rgb(17, 17, 17);
+    margin-right: 10px;
+  }
+
+  .logout > button{
+    border-radius: 10px;
+    padding: 5px;
+    width: fit-content;
+  }
+
+  .logo{
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    height: 60px;
+    margin: 10px;
+  }
+
+  .logo > svg{
+    margin-right: 5px;
+    height: 22px;
+    margin-top:5px ;
+  }
+
+  .users{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .side{
+    position: absolute;
+    width:2px;
+    height: 50px;
+    left: 0px;
+    background-color: blue;
+  }
+  
+  .right-column {
+    flex: 2.5;
+    background-color: #c5c2dd;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+  }
+
+  .center{
+    margin: auto;
+  }
+
+  .forms{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y:scroll;
+  }
+
+  .mesg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .mesg > svg {
+    height: 15px;
+    width: 15px;
+    margin-right: 1px;
+  }
+  
+  .msg-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    position: sticky;
+    bottom: 0px;
+    flex-direction: row;
+    background-color: #c5c2dd;
+    width: 100%;
+  }
+  
+  .msg-input > input {
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    width: 100%;
+    margin-right: 2px;
+  }
+  
+  .msg-input > .send {
+    height: 23px;
+    width: 23px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 3px;
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .msg-input > .attach{
+    height: 23px;
+    width: 23px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 3px;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
